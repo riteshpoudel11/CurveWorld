@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header img.logo {
+    height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header .facebook-logo {
+    height: 30px;
+}
+
+section {
+    padding: 20px;
+}
+
+section#home {
+    text-align: center;
+    background-color: #eee;
+    padding: 40px 20px;
+}
+
+section#home h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#countdown {
+    font-size: 1.5em;
+    color: red;
+}
+
+section#about, section#products, section#signup, section#coupon, section#chat {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+section#products ul {
+    list-style: none;
+    padding: 0;
+}
+
+section#products ul li {
+    margin: 5px 0;
+}
+
+section#signup form {
+    display: flex;
+    flex-direction: column;
+}
+
+section#signup form label {
+    margin: 10px 0 5px;
+}
+
+section#signup form input {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+section#signup form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+section#signup form button:hover {
+    background-color: #555;
+}
+
+section#coupon input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+section#coupon button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+section#coupon button:hover {
+    background-color: #555;
+}
+
+#couponMessage {
+    margin-top: 10px;
+    color: green;
+    font-size: 1.2em;
+}
+
+#couponMessage.error {
+    color: red;
+}
